@@ -1,18 +1,7 @@
-<<<<<<< HEAD
 # SEGA
 Generative Preference Modeling via Chain-of-Thought Refinement for Low-Resource Alignment
-=======
-<<<<<<< HEAD
-# SEGA
-Generative Preference Modeling via Chain-of-Thought Refinement for Low-Resource Alignment
-=======
-<<<<<<< HEAD
-# SEGA
-Generative Preference Modeling via Chain-of-Thought Refinement for Low-Resource Alignment
-=======
-# GenPref-SEGA (Reproduction)
 
-This repository reproduces the paper *Generative Preference Modeling via Chain-of-Thought Refinement for Low-Resource Alignment* (GenPref‑SEGA). It implements:
+This repository implements:
 
 - **Cognitive Filtering**: generate `k` Chain-of-Thought (CoT) candidates per query and **rank** them by **entropy-guided** scoring.  
 - **SEGA**: Self-Evaluated Group Advantage — a **listwise** objective that updates the policy using **group-mean–centered advantages**.
@@ -24,7 +13,6 @@ This repository reproduces the paper *Generative Preference Modeling via Chain-o
 
 ## Quickstart
 
-> **Hardware**: The paper reports 8×A100‑80G. You can also run a small-scale demo with LoRA on a single GPU.
 
 ### 0) Install
 ```bash
@@ -108,6 +96,3 @@ data/synthetic/
 - `top_m`: fraction or count for top‑entropy tokens used in Eq. (1)
 - `reward_mapping`: `identity` or `softmax`
 - `beta`: implicit reward scale in `r(q,a)`
->>>>>>> b845713 (first commit)
->>>>>>> 6b1703b (first commit)
->>>>>>> 44e7b23 (first commit)
